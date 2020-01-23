@@ -15,6 +15,7 @@
 		52C45B6E23D905DD00AD971D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C45B6C23D905DD00AD971D /* LaunchScreen.storyboard */; };
 		52C45B7923D905DD00AD971D /* StuddiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C45B7823D905DD00AD971D /* StuddiesTests.swift */; };
 		52C45B8423D905DD00AD971D /* StuddiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C45B8323D905DD00AD971D /* StuddiesUITests.swift */; };
+		52C45B9323DA253F00AD971D /* UITaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C45B9223DA253F00AD971D /* UITaskItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		52C45B7F23D905DD00AD971D /* StuddiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StuddiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C45B8323D905DD00AD971D /* StuddiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuddiesUITests.swift; sourceTree = "<group>"; };
 		52C45B8523D905DD00AD971D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C45B9223DA253F00AD971D /* UITaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITaskItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		52C45B6023D905DB00AD971D /* Studdies */ = {
 			isa = PBXGroup;
 			children = (
+				52C45B9123DA249D00AD971D /* Controll */,
 				52C45B6123D905DB00AD971D /* AppDelegate.swift */,
 				52C45B6323D905DB00AD971D /* SceneDelegate.swift */,
 				52C45B6523D905DB00AD971D /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				52C45B8523D905DD00AD971D /* Info.plist */,
 			);
 			path = StuddiesUITests;
+			sourceTree = "<group>";
+		};
+		52C45B9123DA249D00AD971D /* Controll */ = {
+			isa = PBXGroup;
+			children = (
+				52C45B9223DA253F00AD971D /* UITaskItem.swift */,
+			);
+			path = Controll;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 				52C45B6623D905DB00AD971D /* ViewController.swift in Sources */,
 				52C45B6223D905DB00AD971D /* AppDelegate.swift in Sources */,
 				52C45B6423D905DB00AD971D /* SceneDelegate.swift in Sources */,
+				52C45B9323DA253F00AD971D /* UITaskItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
