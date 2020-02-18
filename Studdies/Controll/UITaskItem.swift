@@ -12,9 +12,10 @@ import UIKit
 class UITaskItem: UIView {
     
     let taskNameLabel = UILabel()
+    let dateLabel = UILabel()
     
     //MARK: Inspector
-    @IBInspectable var taskName: String = String("Task Name") {
+    @IBInspectable var taskName: String = String("Task Name Here") {
         didSet {
             taskNameLabel.text = taskName
         }
@@ -23,6 +24,7 @@ class UITaskItem: UIView {
     @IBInspectable var fontSize: Int = 12 {
         didSet {
             taskNameLabel.font = UIFont.systemFont(ofSize: CGFloat(fontSize), weight: UIFont.Weight.light)
+            dateLabel.font = UIFont.systemFont(ofSize: CGFloat(fontSize), weight: UIFont.Weight.light)
         }
     }
     
@@ -45,7 +47,16 @@ class UITaskItem: UIView {
         // If your cat is in danger, please contact me
         
         taskNameLabel.text = taskName
+        dateLabel.text = "15/02/2020"
         
         self.addSubview(taskNameLabel)
+        self.addSubview(dateLabel)
+        
+        taskNameLabel.translatesAutoresizingMaskIntoConstraints = false
+        dateLabel.translatesAutoresizingMaskIntoConstraints = false
+        
+        NSLayoutConstraint(item: taskNameLabel, attribute: NSLayoutConstraint.Attribute.leading, relatedBy: NSLayoutConstraint.Relation.equal, toItem: self, attribute: NSLayoutConstraint.Attribute.leadingMargin, multiplier: 1.0, constant: 20).isActive = true
+        
+        NSLayoutConstraint(item: dateLabel, attribute: NSLayoutConstraint.Attribute.trailing, relatedBy: NSLayoutConstraint.Relation.equal, toItem: self, attribute: NSLayoutConstraint.Attribute.trailingMargin, multiplier: 1.0, constant: -20).isActive = true
     }
 }

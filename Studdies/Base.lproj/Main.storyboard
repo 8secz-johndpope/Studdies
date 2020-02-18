@@ -42,23 +42,63 @@
                                     <constraint firstAttribute="trailing" secondItem="UNS-cu-3hE" secondAttribute="trailing" id="Kik-c2-cdb"/>
                                 </constraints>
                             </stackView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jyg-4e-E1o" customClass="UITaskItem" customModule="Studdies">
-                                <rect key="frame" x="20" y="252" width="374" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="taskName" value="Hi im Jam Cat lover"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
-                                        <integer key="value" value="20"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hiI-qt-WVc">
+                                <rect key="frame" x="20" y="190" width="374" height="672"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="dzS-8e-80s">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="672"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UHE-g6-gbu" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="128"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qg8-LQ-ugD" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="136" width="374" height="128"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qOX-Tl-RSa" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="272" width="374" height="128"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="huH-SR-d5p" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="408" width="374" height="128"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="03Q-bg-QkV" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="544" width="374" height="128"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Qg8-LQ-ugD" firstAttribute="top" secondItem="UHE-g6-gbu" secondAttribute="bottom" constant="8" id="HQ6-9E-UsO"/>
+                                            <constraint firstAttribute="bottom" secondItem="UHE-g6-gbu" secondAttribute="bottom" constant="544" id="HvT-5C-thL"/>
+                                            <constraint firstItem="qOX-Tl-RSa" firstAttribute="centerY" secondItem="dzS-8e-80s" secondAttribute="centerY" id="eqC-YX-kcD"/>
+                                            <constraint firstItem="qOX-Tl-RSa" firstAttribute="top" secondItem="dzS-8e-80s" secondAttribute="top" constant="272" id="qec-wJ-OhZ"/>
+                                            <constraint firstItem="03Q-bg-QkV" firstAttribute="top" secondItem="dzS-8e-80s" secondAttribute="top" constant="544" id="vNm-Bw-OUG"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="dzS-8e-80s" firstAttribute="centerX" secondItem="hiI-qt-WVc" secondAttribute="centerX" id="43l-IF-gtT"/>
+                                    <constraint firstItem="dzS-8e-80s" firstAttribute="bottom" secondItem="Qkc-0d-hwp" secondAttribute="bottom" id="JY8-zF-RjC"/>
+                                    <constraint firstAttribute="trailing" secondItem="dzS-8e-80s" secondAttribute="trailing" id="hr7-Gi-SeA"/>
+                                    <constraint firstItem="dzS-8e-80s" firstAttribute="leading" secondItem="Qkc-0d-hwp" secondAttribute="leading" id="hv2-F8-NJR"/>
+                                    <constraint firstAttribute="bottom" secondItem="dzS-8e-80s" secondAttribute="bottom" id="sRu-HR-Eu4"/>
+                                    <constraint firstItem="dzS-8e-80s" firstAttribute="top" secondItem="rVT-6s-CdO" secondAttribute="top" id="zJ0-lr-bgI"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="rVT-6s-CdO"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Qkc-0d-hwp"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="hiI-qt-WVc" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="8a9-Om-5wd"/>
+                            <constraint firstItem="hiI-qt-WVc" firstAttribute="top" secondItem="FYq-df-c1q" secondAttribute="bottom" constant="8" id="BMJ-2g-2iD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FYq-df-c1q" secondAttribute="trailing" constant="20" id="SI6-rP-S1q"/>
                             <constraint firstItem="FYq-df-c1q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fux-Zw-y9g"/>
+                            <constraint firstItem="hiI-qt-WVc" firstAttribute="leading" secondItem="FYq-df-c1q" secondAttribute="leading" id="gpz-4C-Z3O"/>
                             <constraint firstItem="FYq-df-c1q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="vUK-Zc-FKN"/>
+                            <constraint firstItem="hiI-qt-WVc" firstAttribute="trailing" secondItem="FYq-df-c1q" secondAttribute="trailing" id="wmZ-jI-aPA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
