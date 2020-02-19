@@ -1,5 +1,5 @@
 # Studdies
-by Arielle and Jayme</br></br>
+by Arielle and Jaymie</br></br>
 
 ## Premise
 Studdies is a productivity app that uses certain interactive elements to keep users focused and determined to complete tasks. </br></br>
