@@ -51,6 +51,9 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UHE-g6-gbu" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="128"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="taskName" value="Name"/>
+                                                </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qg8-LQ-ugD" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="136" width="374" height="128"/>
