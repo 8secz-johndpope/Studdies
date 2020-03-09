@@ -16,6 +16,7 @@
 		52C45B7923D905DD00AD971D /* StuddiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C45B7823D905DD00AD971D /* StuddiesTests.swift */; };
 		52C45B8423D905DD00AD971D /* StuddiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C45B8323D905DD00AD971D /* StuddiesUITests.swift */; };
 		52C45B9323DA253F00AD971D /* UITaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C45B9223DA253F00AD971D /* UITaskItem.swift */; };
+		52C651442416660700FD1A1B /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C651432416660700FD1A1B /* GlobalData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		52C45B8323D905DD00AD971D /* StuddiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuddiesUITests.swift; sourceTree = "<group>"; };
 		52C45B8523D905DD00AD971D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52C45B9223DA253F00AD971D /* UITaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITaskItem.swift; sourceTree = "<group>"; };
+		52C651432416660700FD1A1B /* GlobalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				52C45B6A23D905DD00AD971D /* Assets.xcassets */,
 				52C45B6C23D905DD00AD971D /* LaunchScreen.storyboard */,
 				52C45B6F23D905DD00AD971D /* Info.plist */,
+				52C651432416660700FD1A1B /* GlobalData.swift */,
 			);
 			path = Studdies;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52C45B6623D905DB00AD971D /* ViewController.swift in Sources */,
+				52C651442416660700FD1A1B /* GlobalData.swift in Sources */,
 				52C45B6223D905DB00AD971D /* AppDelegate.swift in Sources */,
 				52C45B6423D905DB00AD971D /* SceneDelegate.swift in Sources */,
 				52C45B9323DA253F00AD971D /* UITaskItem.swift in Sources */,

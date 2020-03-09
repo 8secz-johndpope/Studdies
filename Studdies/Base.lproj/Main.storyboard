@@ -12,101 +12,59 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Studdies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ITd-Nc-Ljf">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="vgW-YW-b9x">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1664"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xH8-zT-zJC" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7go-vc-a0y" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="taskName" value="fewfewf"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="taskName" value="covfefe"/>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7go-vc-a0y" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nnK-w0-iPC" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="128" width="414" height="128"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="taskName" value="covfefe"/>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cAE-JD-hZw" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jAR-27-Ue0" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="256" width="414" height="128"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="taskName" value="covfefe"/>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TmY-Ex-tDB" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mwW-MM-yFB" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="384" width="414" height="128"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="taskName" value="covfefe"/>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OcY-Ik-ZlG" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ED-Hf-wHN" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="512" width="414" height="128"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="taskName" value="covfefe"/>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e2U-hk-Fds" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tlK-oE-d3a" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="640" width="414" height="128"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="taskName" value="covfefe"/>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9fV-cA-u0E" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sy1-mZ-B33" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="768" width="414" height="128"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="taskName" value="covfefe"/>
-                                                </userDefinedRuntimeAttributes>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="659-uQ-vBP" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="896" width="414" height="128"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="taskName" value="covfefe"/>
-                                                </userDefinedRuntimeAttributes>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4MJ-nf-TVb" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="1024" width="414" height="128"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="taskName" value="covfefe"/>
-                                                </userDefinedRuntimeAttributes>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gvh-uy-eBM" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="1152" width="414" height="128"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="taskName" value="covfefe"/>
-                                                </userDefinedRuntimeAttributes>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GDw-O7-bDr" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="1280" width="414" height="128"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="taskName" value="covfefe"/>
-                                                </userDefinedRuntimeAttributes>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1J2-dR-DEZ" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="1408" width="414" height="128"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="taskName" value="covfefe"/>
-                                                </userDefinedRuntimeAttributes>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HmZ-jh-Kge" customClass="UITaskItem" customModule="Studdies" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="1536" width="414" height="128"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="taskName" value="covfefe"/>
@@ -125,6 +83,15 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="2li-d2-8yc"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="h8H-2o-gwN"/>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xd-HP-9mj">
+                                <rect key="frame" x="300" y="696" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" backgroundImage="plus.circle.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="eFy-NL-n5j" kind="show" id="qyk-1M-6Vl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -135,10 +102,113 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="SUn-xy-iqP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="93.75"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="ane-DA-o93">
+            <objects>
+                <viewController id="eFy-NL-n5j" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VX8-ew-tVF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="cYY-uo-XPd">
+                                <rect key="frame" x="20" y="100" width="180" height="608"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EwX-ca-E4q">
+                                        <rect key="frame" x="35" y="0.0" width="110.5" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exprience:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2h-dM-4NU">
+                                        <rect key="frame" x="40" y="291" width="100" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Due Date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NyT-5B-zfe">
+                                        <rect key="frame" x="42.5" y="581.5" width="95" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="uX2-1X-zSh">
+                                <rect key="frame" x="214" y="100" width="180" height="608"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nv7-Uc-gx8">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="35"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uXg-sI-iiG">
+                                        <rect key="frame" x="0.0" y="286.5" width="180" height="35"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KAt-X4-lLd">
+                                        <rect key="frame" x="0.0" y="573" width="180" height="35"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFo-Ag-gtS">
+                                <rect key="frame" x="30" y="710" width="80" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="UT1-sx-Tqj"/>
+                                    <constraint firstAttribute="width" constant="80" id="xwT-tn-CJv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" backgroundImage="backward.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="XBd-xn-OLJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YVJ-Xt-tok">
+                                <rect key="frame" x="304" y="708.5" width="80" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="8Dc-h5-Azj"/>
+                                    <constraint firstAttribute="width" constant="80" id="r24-Es-qZp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" backgroundImage="checkmark.circle.fill" catalog="system"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="uX2-1X-zSh" firstAttribute="leading" secondItem="cYY-uo-XPd" secondAttribute="trailing" constant="14" id="CPY-rg-OsA"/>
+                            <constraint firstItem="tGg-4a-OAH" firstAttribute="bottom" secondItem="cYY-uo-XPd" secondAttribute="bottom" constant="100" id="Egc-mZ-dYk"/>
+                            <constraint firstItem="tGg-4a-OAH" firstAttribute="trailing" secondItem="cYY-uo-XPd" secondAttribute="trailing" constant="214" id="MSf-xp-mS5"/>
+                            <constraint firstItem="uX2-1X-zSh" firstAttribute="leading" secondItem="tGg-4a-OAH" secondAttribute="leading" constant="214" id="PHe-4U-w1W"/>
+                            <constraint firstItem="tGg-4a-OAH" firstAttribute="bottom" secondItem="pFo-Ag-gtS" secondAttribute="bottom" constant="20" id="Qtb-hI-sva"/>
+                            <constraint firstItem="uX2-1X-zSh" firstAttribute="top" secondItem="tGg-4a-OAH" secondAttribute="top" constant="100" id="RLx-QM-AIS"/>
+                            <constraint firstItem="tGg-4a-OAH" firstAttribute="bottom" secondItem="YVJ-Xt-tok" secondAttribute="bottom" constant="20" id="YFl-CQ-AXt"/>
+                            <constraint firstItem="pFo-Ag-gtS" firstAttribute="leading" secondItem="tGg-4a-OAH" secondAttribute="leading" constant="30" id="ZAT-QY-v05"/>
+                            <constraint firstItem="cYY-uo-XPd" firstAttribute="top" secondItem="tGg-4a-OAH" secondAttribute="top" constant="100" id="ayO-ED-GKF"/>
+                            <constraint firstItem="tGg-4a-OAH" firstAttribute="trailing" secondItem="uX2-1X-zSh" secondAttribute="trailing" constant="20" id="bv7-QX-iIc"/>
+                            <constraint firstItem="cYY-uo-XPd" firstAttribute="leading" secondItem="tGg-4a-OAH" secondAttribute="leading" constant="20" id="kzu-Xu-NUT"/>
+                            <constraint firstItem="tGg-4a-OAH" firstAttribute="trailing" secondItem="YVJ-Xt-tok" secondAttribute="trailing" constant="30" id="oVS-8Z-XXK"/>
+                            <constraint firstItem="tGg-4a-OAH" firstAttribute="bottom" secondItem="uX2-1X-zSh" secondAttribute="bottom" constant="100" id="y8X-bg-8iz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tGg-4a-OAH"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9qU-ra-0Vc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UM8-fA-fxa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1163.768115942029" y="187.5"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="backward.fill" catalog="system" width="64" height="38"/>
+        <image name="checkmark.circle.fill" catalog="system" width="64" height="60"/>
+        <image name="plus.circle.fill" catalog="system" width="64" height="60"/>
+    </resources>
 </document>
