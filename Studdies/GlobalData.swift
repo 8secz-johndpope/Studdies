@@ -19,5 +19,5 @@ class GlobalData {
     
     // Dictionary for holding tasks
     // Reducing the need of read/write presistant data
-    public var currentTasks: [String: Task]?
+    public var currentTasks: [String: Task] = [:]
 }

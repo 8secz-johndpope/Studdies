@@ -108,10 +108,10 @@
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="93.75"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Task View Controller-->
         <scene sceneID="ane-DA-o93">
             <objects>
-                <viewController id="eFy-NL-n5j" sceneMemberID="viewController">
+                <viewController id="eFy-NL-n5j" customClass="CreateTaskViewController" customModule="Studdies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VX8-ew-tVF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -160,7 +160,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFo-Ag-gtS">
-                                <rect key="frame" x="30" y="710" width="80" height="76"/>
+                                <rect key="frame" x="30" y="710" width="80" height="75.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="UT1-sx-Tqj"/>
                                     <constraint firstAttribute="width" constant="80" id="xwT-tn-CJv"/>
@@ -179,6 +179,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" backgroundImage="checkmark.circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="btnOkayTap:" destination="eFy-NL-n5j" eventType="touchDown" id="uOj-n1-tBR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -200,6 +203,11 @@
                         <viewLayoutGuide key="safeArea" id="tGg-4a-OAH"/>
                     </view>
                     <navigationItem key="navigationItem" id="9qU-ra-0Vc"/>
+                    <connections>
+                        <outlet property="dueDateOutlet" destination="KAt-X4-lLd" id="1Ys-xd-r2o"/>
+                        <outlet property="expOutlet" destination="uXg-sI-iiG" id="Kif-G4-gcm"/>
+                        <outlet property="taskNameOutlet" destination="nv7-Uc-gx8" id="VES-0w-uAy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UM8-fA-fxa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
