@@ -46,6 +46,8 @@ class UITaskItem: UIView {
         // Hi im Jam cat lover, saviour
         // If your cat is in danger, please contact me
         
+        NSLayoutConstraint(item: self, attribute: NSLayoutConstraint.Attribute.height, relatedBy: NSLayoutConstraint.Relation.equal, toItem: nil, attribute: NSLayoutConstraint.Attribute.notAnAttribute, multiplier: 1, constant: 128).isActive = true
+        
         taskNameLabel.text = taskName
         dateLabel.text = "15/02/2020"
         
