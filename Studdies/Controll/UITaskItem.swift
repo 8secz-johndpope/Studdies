@@ -31,8 +31,6 @@ class UITaskItem: UIView {
     //MARK: Initialization
     convenience init() {
         self.init(frame: CGRect.zero)
-        
-        initControl()
     }
     
     override init(frame: CGRect) {
@@ -52,6 +50,10 @@ class UITaskItem: UIView {
         // Hi im Jam cat lover, saviour
         // If your cat is in danger, please contact me
         
+        // Background color
+        self.backgroundColor = UIColor.lightGray
+        
+        // Height constrain
         NSLayoutConstraint(item: self, attribute: NSLayoutConstraint.Attribute.height, relatedBy: NSLayoutConstraint.Relation.equal, toItem: nil, attribute: NSLayoutConstraint.Attribute.notAnAttribute, multiplier: 1, constant: 128).isActive = true
         
         taskNameLabel.text = taskName

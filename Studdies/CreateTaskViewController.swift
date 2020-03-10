@@ -12,8 +12,8 @@ class CreateTaskViewController: UIViewController {
     
     @IBOutlet weak var taskNameOutlet: UITextField!
     @IBOutlet weak var expOutlet: UITextField!
-    @IBOutlet weak var dueDateOutlet: UITextField!
-
+    @IBOutlet weak var dueDateOutlet: UIDatePicker!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -45,10 +45,7 @@ class CreateTaskViewController: UIViewController {
             return
         }
         
-        guard let taskDueDateStr = dueDateOutlet.text else {
-            print("No data for task due date")
-            return
-        }
+        let taskDueDateStr = dueDateOutlet.date.description
         
         if !taskNameStr.isEmpty && !taskExpStr.isEmpty && !taskDueDateStr.isEmpty {
             

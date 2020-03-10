@@ -70,7 +70,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="cYY-uo-XPd">
-                                <rect key="frame" x="20" y="100" width="180" height="608"/>
+                                <rect key="frame" x="20" y="100" width="180" height="308"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EwX-ca-E4q">
                                         <rect key="frame" x="35" y="0.0" width="110.5" height="26.5"/>
@@ -79,13 +79,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exprience:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2h-dM-4NU">
-                                        <rect key="frame" x="40" y="291" width="100" height="26.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Due Date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NyT-5B-zfe">
-                                        <rect key="frame" x="42.5" y="581.5" width="95" height="26.5"/>
+                                        <rect key="frame" x="40" y="281.5" width="100" height="26.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -93,7 +87,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="uX2-1X-zSh">
-                                <rect key="frame" x="214" y="100" width="180" height="608"/>
+                                <rect key="frame" x="214" y="100" width="180" height="308"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nv7-Uc-gx8">
                                         <rect key="frame" x="0.0" y="0.0" width="180" height="35"/>
@@ -101,14 +95,9 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uXg-sI-iiG">
-                                        <rect key="frame" x="0.0" y="286.5" width="180" height="35"/>
+                                        <rect key="frame" x="0.0" y="273" width="180" height="35"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KAt-X4-lLd">
-                                        <rect key="frame" x="0.0" y="573" width="180" height="35"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                     </textField>
                                 </subviews>
                             </stackView>
@@ -136,28 +125,35 @@
                                     <action selector="btnOkayTap:" destination="eFy-NL-n5j" eventType="touchDown" id="uOj-n1-tBR"/>
                                 </connections>
                             </button>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="py2-LU-9t8">
+                                <rect key="frame" x="-10" y="450" width="414" height="216"/>
+                            </datePicker>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="uX2-1X-zSh" firstAttribute="leading" secondItem="cYY-uo-XPd" secondAttribute="trailing" constant="14" id="CPY-rg-OsA"/>
-                            <constraint firstItem="tGg-4a-OAH" firstAttribute="bottom" secondItem="cYY-uo-XPd" secondAttribute="bottom" constant="100" id="Egc-mZ-dYk"/>
+                            <constraint firstItem="tGg-4a-OAH" firstAttribute="bottom" secondItem="cYY-uo-XPd" secondAttribute="bottom" constant="400" id="Egc-mZ-dYk"/>
                             <constraint firstItem="tGg-4a-OAH" firstAttribute="trailing" secondItem="cYY-uo-XPd" secondAttribute="trailing" constant="214" id="MSf-xp-mS5"/>
                             <constraint firstItem="uX2-1X-zSh" firstAttribute="leading" secondItem="tGg-4a-OAH" secondAttribute="leading" constant="214" id="PHe-4U-w1W"/>
                             <constraint firstItem="tGg-4a-OAH" firstAttribute="bottom" secondItem="pFo-Ag-gtS" secondAttribute="bottom" constant="20" id="Qtb-hI-sva"/>
                             <constraint firstItem="uX2-1X-zSh" firstAttribute="top" secondItem="tGg-4a-OAH" secondAttribute="top" constant="100" id="RLx-QM-AIS"/>
                             <constraint firstItem="tGg-4a-OAH" firstAttribute="bottom" secondItem="YVJ-Xt-tok" secondAttribute="bottom" constant="20" id="YFl-CQ-AXt"/>
                             <constraint firstItem="pFo-Ag-gtS" firstAttribute="leading" secondItem="tGg-4a-OAH" secondAttribute="leading" constant="30" id="ZAT-QY-v05"/>
+                            <constraint firstItem="py2-LU-9t8" firstAttribute="leading" secondItem="VX8-ew-tVF" secondAttribute="leading" constant="-10" id="a2C-7h-TGO"/>
                             <constraint firstItem="cYY-uo-XPd" firstAttribute="top" secondItem="tGg-4a-OAH" secondAttribute="top" constant="100" id="ayO-ED-GKF"/>
                             <constraint firstItem="tGg-4a-OAH" firstAttribute="trailing" secondItem="uX2-1X-zSh" secondAttribute="trailing" constant="20" id="bv7-QX-iIc"/>
+                            <constraint firstItem="tGg-4a-OAH" firstAttribute="bottom" secondItem="py2-LU-9t8" secondAttribute="bottom" constant="142" id="ehJ-vc-rEV"/>
+                            <constraint firstItem="py2-LU-9t8" firstAttribute="top" secondItem="tGg-4a-OAH" secondAttribute="top" constant="450" id="jJV-NZ-68e"/>
                             <constraint firstItem="cYY-uo-XPd" firstAttribute="leading" secondItem="tGg-4a-OAH" secondAttribute="leading" constant="20" id="kzu-Xu-NUT"/>
                             <constraint firstItem="tGg-4a-OAH" firstAttribute="trailing" secondItem="YVJ-Xt-tok" secondAttribute="trailing" constant="30" id="oVS-8Z-XXK"/>
-                            <constraint firstItem="tGg-4a-OAH" firstAttribute="bottom" secondItem="uX2-1X-zSh" secondAttribute="bottom" constant="100" id="y8X-bg-8iz"/>
+                            <constraint firstItem="tGg-4a-OAH" firstAttribute="trailing" secondItem="py2-LU-9t8" secondAttribute="trailing" constant="10" id="rGM-ci-pjm"/>
+                            <constraint firstItem="tGg-4a-OAH" firstAttribute="bottom" secondItem="uX2-1X-zSh" secondAttribute="bottom" constant="400" id="y8X-bg-8iz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tGg-4a-OAH"/>
                     </view>
                     <navigationItem key="navigationItem" id="9qU-ra-0Vc"/>
                     <connections>
-                        <outlet property="dueDateOutlet" destination="KAt-X4-lLd" id="1Ys-xd-r2o"/>
+                        <outlet property="dueDateOutlet" destination="py2-LU-9t8" id="aWR-Jp-yoq"/>
                         <outlet property="expOutlet" destination="uXg-sI-iiG" id="Kif-G4-gcm"/>
                         <outlet property="taskNameOutlet" destination="nv7-Uc-gx8" id="VES-0w-uAy"/>
                     </connections>
