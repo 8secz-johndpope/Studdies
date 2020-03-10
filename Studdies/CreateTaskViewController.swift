@@ -20,6 +20,18 @@ class CreateTaskViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+    }
+    @IBAction func btnBackTap(_ sender: Any) {
+        // Closing task screen
+        let rootVC = presentingViewController as? ViewController
+        dismiss(animated: true) {
+            rootVC?.refresh()
+        }
+    }
+    
     @IBAction func btnOkayTap(_ sender: Any) {
         
         // Make sure people dont do stupid shit

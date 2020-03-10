@@ -9,19 +9,36 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var stkTasks: UIStackView!
     
-    //MARK: Properties
-    @IBOutlet weak var namedTextFeild: UITextField!
-    @IBOutlet weak var namedTextLabel: UILabel!
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(viewDidBecomeActive), name: UIApplication.didBecomeActiveNotification , object: nil)
     }
-
-    //MARK: Actions
-    @IBAction func namedButtonSetDefaultText(_ sender: UIButton) {
-        namedTextLabel.text = namedTextFeild.text
+    
+    func refresh() {
+        // Clear task list
+        for view in stkTasks.subviews {
+            view.removeFromSuperview()
+        }
+        
+        for task in GlobalData.sharedInstance.currentTasks {
+            let unpackedTask = task.value
+            
+            let taskItem = UITaskItem()
+            taskItem.taskName = unpackedTask.taskName
+            stkTasks.addSubview(taskItem)
+        }
+    }
+    
+    @objc func viewDidBecomeActive() {
+        print("viewDidBecomeActive")
+    }
+    @IBAction func btnNewTaskTap(_ sender: Any) {
+        // Close current screen
+        performSegue(withIdentifier: "seTaskToNewTask", sender: self)
     }
 }
 
