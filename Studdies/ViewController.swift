@@ -29,7 +29,7 @@ class ViewController: UIViewController {
             
             let taskItem = UITaskItem()
             taskItem.taskName = unpackedTask.taskName
-            stkTasks.addSubview(taskItem)
+            stkTasks.addArrangedSubview(taskItem)
         }
     }
     

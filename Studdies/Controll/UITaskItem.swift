@@ -29,6 +29,12 @@ class UITaskItem: UIView {
     }
     
     //MARK: Initialization
+    convenience init() {
+        self.init(frame: CGRect.zero)
+        
+        initControl()
+    }
+    
     override init(frame: CGRect) {
       super.init(frame: frame)
         
@@ -42,7 +48,7 @@ class UITaskItem: UIView {
     }
     
     //MARK: Private Methods
-    private func initControl() {
+    public func initControl() {
         // Hi im Jam cat lover, saviour
         // If your cat is in danger, please contact me
         
