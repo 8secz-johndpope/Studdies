@@ -10,11 +10,14 @@ import UIKit
 import FirebaseAnalytics
 import FirebaseStorage
 import FirebaseDatabase
+import GoogleMobileAds
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, GADBannerViewDelegate {
     
     @IBOutlet weak var txtUser: UITextField!
     @IBOutlet weak var txtPwd: UITextField!
+    
+    @IBOutlet weak var ADBanner: GADBannerView!
     
     var dataBaseRef: DatabaseReference?
     
@@ -22,7 +25,15 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Load AD
+        ADBanner.adSize = kGADAdSizeBanner
+        ADBanner.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        ADBanner.delegate = self
+        ADBanner.rootViewController = self
+        ADBanner.load(GADRequest())
 
+        // Setup aleart box
         alert.addAction(UIAlertAction(title: "Okay", style: .default, handler: nil))
         
         // Do any additional setup after loading the view.

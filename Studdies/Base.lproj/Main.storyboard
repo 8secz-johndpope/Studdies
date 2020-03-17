@@ -44,11 +44,25 @@
                                     <action selector="btnLoginTap:" destination="sZa-Il-3Sb" eventType="touchUpInside" id="6XZ-ei-QKY"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ESN-lM-PiM" customClass="GADBannerView">
+                                <rect key="frame" x="20" y="734" width="374" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="rFN-DM-2fo"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="adUnitID" value="ca-app-pub-3940256099942544/2934735716"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.87058823529999996" green="0.51616347242327976" blue="0.58290845335471853" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Bsn-Nz-2Rm" firstAttribute="trailing" secondItem="Rn9-fC-1an" secondAttribute="trailing" constant="50" id="4Bh-Mu-8nk"/>
                             <constraint firstItem="Bsn-Nz-2Rm" firstAttribute="trailing" secondItem="mjl-bh-kcD" secondAttribute="trailing" constant="104" id="7pM-1p-ykJ"/>
+                            <constraint firstItem="ESN-lM-PiM" firstAttribute="bottom" secondItem="Bsn-Nz-2Rm" secondAttribute="bottom" id="8Og-yE-xq7"/>
+                            <constraint firstItem="ESN-lM-PiM" firstAttribute="width" secondItem="bTl-Ly-7cK" secondAttribute="width" multiplier="0.903382" id="8VL-0U-Eud"/>
+                            <constraint firstItem="ESN-lM-PiM" firstAttribute="top" secondItem="bTl-Ly-7cK" secondAttribute="top" constant="734" id="AQR-ym-lYw"/>
+                            <constraint firstItem="ESN-lM-PiM" firstAttribute="leading" secondItem="Bsn-Nz-2Rm" secondAttribute="leading" constant="20" id="J8O-gM-mNR"/>
                             <constraint firstItem="mjl-bh-kcD" firstAttribute="top" secondItem="Bsn-Nz-2Rm" secondAttribute="top" constant="103" id="TvH-DU-Ctg"/>
                             <constraint firstItem="DRr-cm-y2Q" firstAttribute="top" secondItem="Rn9-fC-1an" secondAttribute="bottom" constant="50" id="WzV-Rb-G2N"/>
                             <constraint firstItem="Rn9-fC-1an" firstAttribute="top" secondItem="7FQ-gB-hHw" secondAttribute="bottom" constant="24" id="X4P-E7-kZN"/>
@@ -59,10 +73,12 @@
                             <constraint firstItem="mjl-bh-kcD" firstAttribute="leading" secondItem="Bsn-Nz-2Rm" secondAttribute="leading" constant="104" id="t93-Eh-QC8"/>
                             <constraint firstItem="Bsn-Nz-2Rm" firstAttribute="trailing" secondItem="DRr-cm-y2Q" secondAttribute="trailing" constant="100" id="wP6-Rv-Im6"/>
                             <constraint firstItem="DRr-cm-y2Q" firstAttribute="leading" secondItem="Bsn-Nz-2Rm" secondAttribute="leading" constant="100" id="yZJ-cw-3Po"/>
+                            <constraint firstItem="Bsn-Nz-2Rm" firstAttribute="trailing" secondItem="ESN-lM-PiM" secondAttribute="trailing" constant="20" id="zxf-pt-ium"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Bsn-Nz-2Rm"/>
                     </view>
                     <connections>
+                        <outlet property="ADBanner" destination="ESN-lM-PiM" id="mXV-UG-EN7"/>
                         <outlet property="txtPwd" destination="Rn9-fC-1an" id="Jbx-ea-L1e"/>
                         <outlet property="txtUser" destination="7FQ-gB-hHw" id="uGZ-Km-aaN"/>
                         <segue destination="BYZ-38-t0r" kind="showDetail" identifier="seLoginToTask" id="Tcm-Bp-Leh"/>
