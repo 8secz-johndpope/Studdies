@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         print("viewDidBecomeActive")
     }
     @IBAction func btnNewTaskTap(_ sender: Any) {
-        // Close current screen
+        // Show next screen
         performSegue(withIdentifier: "seTaskToNewTask", sender: self)
     }
 }

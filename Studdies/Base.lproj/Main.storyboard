@@ -65,7 +65,7 @@
                     <connections>
                         <outlet property="txtPwd" destination="Rn9-fC-1an" id="Jbx-ea-L1e"/>
                         <outlet property="txtUser" destination="7FQ-gB-hHw" id="uGZ-Km-aaN"/>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="seLoginToTask" id="Tcm-Bp-Leh"/>
+                        <segue destination="BYZ-38-t0r" kind="showDetail" identifier="seLoginToTask" id="Tcm-Bp-Leh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wtv-Y2-Pra" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
